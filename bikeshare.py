@@ -59,7 +59,7 @@ def get_filters():
     day_list=["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"]
     while filter_selected=="day":
         try:
-            day=input("Which day of the week? [Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, or Sunday]?\n").title()
+            # day=input("Which day of the week? [Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, or Sunday]\n").title()
             if day in day_list:
                 print("Thanks for selecting "+day)
                 break
