@@ -45,7 +45,7 @@ def get_filters():
     month_list=["January","February","March","April","May","June"]
     while filter_selected=="month":
         try:
-            month=input("Which month? [January, February, March, April, May, or June]?\n").title()
+            month=input("Which month? [January, February, March, April, May, or June]\n").title()
             if month in month_list:
                 print("Thanks for selecting "+month)
                 break
